@@ -130,6 +130,7 @@
             Name = "FrmConcurrencia";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Demostración De Concurrencia";
+            Load += FrmConcurrencia_Load;
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);
             splitContainer1.Panel2.PerformLayout();

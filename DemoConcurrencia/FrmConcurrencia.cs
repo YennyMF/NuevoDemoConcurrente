@@ -81,7 +81,7 @@ namespace DemoConcurrencia
                   catch (OperationCanceledException)
                   {
 
-                      ActualizarResultado("Tarea cancelada.");
+                      ActualizarResultado("Tarea cancelada.EN DEMOSTRACION CONCURRECNIA");
                   }
 
               });
@@ -92,5 +92,6 @@ namespace DemoConcurrencia
         {
             _cts?.Cancel();
         }
+        
     }
 }
