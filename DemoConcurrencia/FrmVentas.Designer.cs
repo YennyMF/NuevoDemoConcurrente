@@ -54,8 +54,8 @@
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.Controls.Add(TxtResultado);
-            splitContainer1.Size = new Size(800, 450);
-            splitContainer1.SplitterDistance = 266;
+            splitContainer1.Size = new Size(709, 405);
+            splitContainer1.SplitterDistance = 235;
             splitContainer1.TabIndex = 0;
             // 
             // lblCantidadProductos
@@ -69,22 +69,26 @@
             // 
             // btnQuitarProducto
             // 
+            btnQuitarProducto.BackColor = Color.FromArgb(255, 224, 192);
+            btnQuitarProducto.Font = new Font("Times New Roman", 10.2F, FontStyle.Bold);
             btnQuitarProducto.Location = new Point(59, 206);
             btnQuitarProducto.Name = "btnQuitarProducto";
             btnQuitarProducto.Size = new Size(154, 29);
             btnQuitarProducto.TabIndex = 1;
             btnQuitarProducto.Text = "Quitar Producto";
-            btnQuitarProducto.UseVisualStyleBackColor = true;
+            btnQuitarProducto.UseVisualStyleBackColor = false;
             btnQuitarProducto.Click += btnQuitarProducto_Click;
             // 
             // btnAgregarProducto
             // 
+            btnAgregarProducto.BackColor = Color.FromArgb(192, 255, 192);
+            btnAgregarProducto.Font = new Font("Times New Roman", 10.2F, FontStyle.Bold);
             btnAgregarProducto.Location = new Point(59, 52);
             btnAgregarProducto.Name = "btnAgregarProducto";
             btnAgregarProducto.Size = new Size(154, 34);
             btnAgregarProducto.TabIndex = 0;
             btnAgregarProducto.Text = "Agregar Producto";
-            btnAgregarProducto.UseVisualStyleBackColor = true;
+            btnAgregarProducto.UseVisualStyleBackColor = false;
             btnAgregarProducto.Click += btnAgregarProducto_Click;
             // 
             // TxtResultado
@@ -93,16 +97,17 @@
             TxtResultado.Location = new Point(0, 0);
             TxtResultado.Multiline = true;
             TxtResultado.Name = "TxtResultado";
-            TxtResultado.Size = new Size(530, 450);
+            TxtResultado.Size = new Size(470, 405);
             TxtResultado.TabIndex = 3;
             // 
             // FrmVentas
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(709, 405);
             Controls.Add(splitContainer1);
             Name = "FrmVentas";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmVentas";
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel1.PerformLayout();
